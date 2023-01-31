@@ -5,7 +5,7 @@ This is a String Module "MyString" that implements the most popular and most use
   <tbody>
     <tr>
       <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>Συνάρτηση MyString<span class="Apple-converted-space">&nbsp;</span></b></span></p>
+        <p class="p2"><span class="s1"><b>MyString<span class="Apple-converted-space">&nbsp;</span></b></span></p>
       </td>
       <td valign="top" class="td2">
         <p class="p2"><span class="s1"><b>standard C library<span class="Apple-converted-space">&nbsp;</span></b></span></p>
