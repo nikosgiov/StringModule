@@ -1,6 +1,6 @@
 # StringModule
 
-This is a String Module "MyString" that implements the most popular and most used string functions of language C. Specifaclly :
+This is a String Module "MyString" that implements the most popular and most used string functions of C programming language. Specifaclly :
 <table cellspacing="0" cellpadding="0" class="t1">
   <tbody>
     <tr>
@@ -8,7 +8,7 @@ This is a String Module "MyString" that implements the most popular and most use
         <p class="p2"><span class="s1"><b>Συνάρτηση MyString<span class="Apple-converted-space">&nbsp;</span></b></span></p>
       </td>
       <td valign="top" class="td2">
-        <p class="p2"><span class="s1"><b>Αντίστοιχη Συνάρτηση στη standar C library<span class="Apple-converted-space">&nbsp;</span></b></span></p>
+        <p class="p2"><span class="s1"><b>standard C library<span class="Apple-converted-space">&nbsp;</span></b></span></p>
       </td>
     </tr>
     <tr>
