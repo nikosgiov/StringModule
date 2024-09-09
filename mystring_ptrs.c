@@ -131,3 +131,31 @@ char *ms_search(const char *str1, const char *str2){
     }
     return NULL;
 }
+
+
+
+/* 
+ * Return a pointer to the first occurrence of character c in string pcStr, 
+ * or NULL if the character is not found.
+ *
+ * It is a checked runtime error for `pcStr` to be NULL.
+ */
+char *ms_strchr(const char *pcStr, int c) {
+
+    assert(pcStr != NULL);  // Ensure the string is not NULL
+
+    // Loop through the string until the null terminator
+    while (*pcStr != '\0') {
+        if (*pcStr == (char)c) {
+            return (char *)pcStr;  // Return a pointer to the first occurrence of `c`
+        }
+        pcStr++;  // Move to the next character (pointer arithmetic)
+    }
+
+    // Check for the null terminator character
+    if (c == '\0') {
+        return (char *)pcStr;  // Return pointer to the null terminator
+    }
+
+    return NULL;  // Return NULL if character `c` is not found
+}
